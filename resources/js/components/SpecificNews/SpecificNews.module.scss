@@ -1,0 +1,28 @@
+@use "./resources/sass/variables" as *;
+
+.img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.25rem;
+}
+
+.heading {
+    margin: 2rem 0;
+    font-weight: bold;
+    color: $secondary-color;
+}
+
+.description {
+    margin-bottom: 2rem;
+    letter-spacing: 0.08rem;
+    line-height: 1.5;
+}
+
+.date {
+    display: inline-block;
+    background: $main-color;
+    border-radius: 0.25rem;
+    font-size: $font-size;
+    color: #fff;
+    padding: .5rem 1rem;
+}

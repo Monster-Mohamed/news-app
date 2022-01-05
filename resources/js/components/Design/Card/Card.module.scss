@@ -1,0 +1,31 @@
+@use "./resources/sass/variables" as *;
+
+.card {
+    width: 100%;
+    height: 25rem;
+    margin-top: 4rem;
+
+    .img {
+        width: 100%;
+        height: 15rem;
+    }
+
+    .title {
+        color: $secondary-color;
+        margin: 1.2rem 0;
+        font-size: $big-font - .2;
+    }
+
+    .description {
+        width: 80%;
+        word-break: break-word;
+        max-height: 6rem;
+        overflow: auto;
+        margin-bottom: 2rem;
+    }
+
+    .date {
+        color: $main-color;
+    }
+
+}
